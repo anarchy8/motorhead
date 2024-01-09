@@ -1,0 +1,57 @@
+@import "colors";
+@import "variables";
+@import "responsive";
+
+.hero-section {
+  gap: $gap-size;
+  margin: 30px;
+  text-align: start;
+  @include ortala;
+  justify-content: center;
+  text-align: start;
+  .about-text {
+    width: 50%;
+    font-size: $p-fontsize;
+  }
+  .about-image {
+    width: 700px;
+  }
+}
+.lemmy {
+  text-align: center;
+  gap: $gap-size;
+  margin: 30px;
+  div {
+    @include ortala;
+    text-align: start;
+    gap: $gap-size;
+    font-size: $p-fontsize;
+  }
+  img {
+    width: 50%;
+    height: 450px;
+  }
+  h1 {
+    font-size: $h1-fontsize;
+  }
+}
+
+.tracks-section {
+  text-align: center;
+  .cards {
+    @include container-specs;
+    flex-wrap: wrap;
+    .card {
+      font-size: $card-p-size;
+      .card-img {
+        width: 220px;
+        height: 250px;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+  h1 {
+    font-size: $h1-fontsize;
+  }
+}

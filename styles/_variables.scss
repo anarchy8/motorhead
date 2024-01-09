@@ -1,0 +1,22 @@
+$border-radius: 7px;
+$h1-fontsize: 20px;
+$font-weight: bold;
+$p-fontsize: 22px;
+$h1-fontsize: 60px;
+$gap-size: 5px;
+$card-p-size: 18px;
+
+@mixin container-specs {
+  margin: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+@mixin ortala {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}

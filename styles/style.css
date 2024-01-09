@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&family=Averia+Serif+Libre:wght@300&family=Chewy&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=Open+Sans:wght@300&family=Poppins:wght@300&family=UnifrakturCook:wght@700&display=swap");
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar .nav-logo {
+  height: 100%;
+  width: 130px;
+  cursor: pointer;
+}
+.navbar .nav-heading {
+  color: white;
+  font-size: 55px;
+}
+.navbar .nav-links {
+  display: flex;
+  gap: 30px;
+}
+.navbar .nav-links .nav-link {
+  color: white;
+  font-size: 30px;
+}
+
+#menu-icon {
+  color: white;
+  font-size: 35px;
+  display: none;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-links .nav-link {
+    display: none;
+  }
+  #menu-icon {
+    display: block;
+    margin-left: 15px;
+  }
+  .hero-section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero-section .about-text {
+    width: 100%;
+  }
+  .hero-section .about-image {
+    width: 100%;
+  }
+  .tracks-section {
+    font-size: 26px;
+    text-align: center;
+  }
+  .tracks-section .cards {
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .tracks-section .cards .card {
+    font-size: 26px;
+  }
+  .tracks-section .cards .card .card-img {
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .lemmy {
+    text-align: center;
+    gap: 5px;
+    margin: 30px;
+  }
+  .lemmy div {
+    text-align: start;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 22px;
+  }
+  .lemmy img {
+    width: 80%;
+    height: 500px;
+  }
+  .lemmy h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-links .nav-link {
+    display: none;
+  }
+  #menu-icon {
+    display: block;
+    margin-left: 15px;
+  }
+  .hero-section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero-section .about-text {
+    width: 100%;
+  }
+  .hero-section .about-image {
+    width: 100%;
+  }
+  .tracks-section {
+    font-size: 26px;
+    text-align: center;
+  }
+  .tracks-section .cards {
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .tracks-section .cards .card {
+    font-size: 26px;
+  }
+  .tracks-section .cards .card .card-img {
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .lemmy {
+    text-align: center;
+    gap: 5px;
+    margin: 30px;
+  }
+  .lemmy div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-align: start;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 22px;
+  }
+  .lemmy img {
+    width: 100%;
+    height: 400px;
+  }
+  .lemmy h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-links .nav-link {
+    display: none;
+  }
+  #menu-icon {
+    display: block;
+    margin-left: 15px;
+  }
+  .hero-section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero-section .about-text {
+    width: 100%;
+  }
+  .hero-section .about-image {
+    width: 420px;
+  }
+  .tracks-section {
+    font-size: 26px;
+    text-align: center;
+  }
+  .tracks-section .cards {
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .tracks-section .cards .card {
+    font-size: 26px;
+  }
+  .tracks-section .cards .card .card-img {
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .lemmy {
+    text-align: center;
+    gap: 5px;
+    margin: 30px;
+  }
+  .lemmy div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-align: start;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 22px;
+  }
+  .lemmy img {
+    width: 100%;
+    height: 300px;
+  }
+  .lemmy h1 {
+    font-size: 60px;
+  }
+}
+.hero-section {
+  gap: 5px;
+  margin: 30px;
+  text-align: start;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+.hero-section .about-text {
+  width: 50%;
+  font-size: 22px;
+}
+.hero-section .about-image {
+  width: 700px;
+}
+
+.lemmy {
+  text-align: center;
+  gap: 5px;
+  margin: 30px;
+}
+.lemmy div {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-align: start;
+  gap: 5px;
+  font-size: 22px;
+}
+.lemmy img {
+  width: 50%;
+  height: 450px;
+}
+.lemmy h1 {
+  font-size: 60px;
+}
+
+.tracks-section {
+  text-align: center;
+}
+.tracks-section .cards {
+  margin: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.tracks-section .cards .card {
+  font-size: 18px;
+}
+.tracks-section .cards .card .card-img {
+  width: 220px;
+  height: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tracks-section h1 {
+  font-size: 60px;
+}
+
+@media screen and (max-width: 1400px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-links .nav-link {
+    display: none;
+  }
+  #menu-icon {
+    display: block;
+    margin-left: 15px;
+  }
+  .hero-section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero-section .about-text {
+    width: 100%;
+  }
+  .hero-section .about-image {
+    width: 100%;
+  }
+  .tracks-section {
+    font-size: 26px;
+    text-align: center;
+  }
+  .tracks-section .cards {
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .tracks-section .cards .card {
+    font-size: 26px;
+  }
+  .tracks-section .cards .card .card-img {
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .lemmy {
+    text-align: center;
+    gap: 5px;
+    margin: 30px;
+  }
+  .lemmy div {
+    text-align: start;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 22px;
+  }
+  .lemmy img {
+    width: 80%;
+    height: 500px;
+  }
+  .lemmy h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-links .nav-link {
+    display: none;
+  }
+  #menu-icon {
+    display: block;
+    margin-left: 15px;
+  }
+  .hero-section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero-section .about-text {
+    width: 100%;
+  }
+  .hero-section .about-image {
+    width: 100%;
+  }
+  .tracks-section {
+    font-size: 26px;
+    text-align: center;
+  }
+  .tracks-section .cards {
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .tracks-section .cards .card {
+    font-size: 26px;
+  }
+  .tracks-section .cards .card .card-img {
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .lemmy {
+    text-align: center;
+    gap: 5px;
+    margin: 30px;
+  }
+  .lemmy div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-align: start;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 22px;
+  }
+  .lemmy img {
+    width: 100%;
+    height: 400px;
+  }
+  .lemmy h1 {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-links .nav-link {
+    display: none;
+  }
+  #menu-icon {
+    display: block;
+    margin-left: 15px;
+  }
+  .hero-section {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .hero-section .about-text {
+    width: 100%;
+  }
+  .hero-section .about-image {
+    width: 420px;
+  }
+  .tracks-section {
+    font-size: 26px;
+    text-align: center;
+  }
+  .tracks-section .cards {
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .tracks-section .cards .card {
+    font-size: 26px;
+  }
+  .tracks-section .cards .card .card-img {
+    width: 300px;
+    height: 340px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .lemmy {
+    text-align: center;
+    gap: 5px;
+    margin: 30px;
+  }
+  .lemmy div {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    text-align: start;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 22px;
+  }
+  .lemmy img {
+    width: 100%;
+    height: 300px;
+  }
+  .lemmy h1 {
+    font-size: 60px;
+  }
+}
+.foot {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.foot img {
+  width: 100px;
+}
+.foot h1 {
+  font-size: 30px;
+}
+.foot p {
+  font-size: 19px;
+}
+.foot div {
+  display: flex;
+  gap: 10px;
+  font-size: 22px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "UnifrakturCook", cursive;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+@import "colors";
+@import "variables";
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: $maincolor;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @include ortala;
+  justify-content: space-around;
+  .nav-logo {
+    height: 100%;
+    width: 130px;
+    cursor: pointer;
+  }
+  .nav-heading {
+    color: $secondarycolor;
+    font-size: 55px;
+  }
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    .nav-link {
+      color: $secondarycolor;
+      font-size: 30px;
+    }
+  }
+}
+
+#menu-icon {
+  color: white;
+  font-size: 35px;
+  display: none;
+  margin-right: 10px;
+}

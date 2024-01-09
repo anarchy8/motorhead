@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&family=Averia+Serif+Libre:wght@300&family=Chewy&family=Nunito+Sans:opsz,wght@6..12,200;6..12,400&family=Open+Sans:wght@300&family=Poppins:wght@300&family=UnifrakturCook:wght@700&display=swap");
+@import "navbar";
+@import "colors";
+@import "variables";
+@import "section";
+@import "responsive";
+@import "footer";
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "UnifrakturCook", cursive;
+}
+a {
+  text-decoration: none;
+}
